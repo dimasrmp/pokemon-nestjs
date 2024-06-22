@@ -38,7 +38,7 @@ To get a local copy up and running follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/pokemon-nestjs-react.git
+   git clone https://github.com/dimasrmp/pokemon-nestjs.git
 
 cd pokemon-nestjs-react/backend
 npm install
@@ -48,3 +48,28 @@ npm start
 cd ../frontend
 npm install
 npm start
+
+## Using Docker
+
+Before starting, ensure you have Docker and Docker Compose installed on your machine:
+
+- Docker: [Install Docker](https://docs.docker.com/get-docker/)
+- Docker Compose: [Install Docker Compose](https://docs.docker.com/compose/install/)
+
+## Getting Started
+
+### Setting Up Docker
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/pokemon-nestjs-react.git
+
+   cd pokemon-nestjs-react
+   docker-compose up --build
+
+
+## Accessing the Application
+
+Frontend: Access the React frontend by navigating to http://localhost:3000 in your web browser.
+Backend: Access the NestJS backend by navigating to http://localhost:3001 in your web browser.
