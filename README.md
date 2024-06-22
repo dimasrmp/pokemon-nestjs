@@ -27,7 +27,6 @@ Before starting, ensure you have the following installed:
 
 - Node.js (version 12 or higher)
 - npm or yarn
-- MongoDB (if using a database)
 
 ## Getting Started
 
