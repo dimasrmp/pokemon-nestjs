@@ -4,25 +4,6 @@ import { PokemonService } from './pokemon.service';
 @Controller('pokemon')
 export class PokemonController {
   constructor(private readonly pokemonService: PokemonService) {}
-
-  @Get()
-  async getPokemonList() {
-    return [
-      {
-        name: 'bulbasaur',
-        image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
-      },
-      {
-        name: 'ivysaur',
-        image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png',
-      },
-      {
-        name: 'venusaur',
-        image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png',
-      },
-      // Add more Pokémon data as needed
-    ];
-  }
   
   @Get('catch')
   catchPokemon() {
